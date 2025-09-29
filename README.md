@@ -20,6 +20,14 @@ This project showcases a Deep Reinforcement Learning agent trained to solve the 
     * Created a custom `gym.ObservationWrapper` to seamlessly integrate the preprocessing pipeline with the environment.
 * **Outcome:** A tested wrapped Gymnasium environment ready for visual-based training. The completed work is available in `notebooks/1_Environment_and_Preprocessing.ipynb`.
 
+### Phase 2: Model Building and Training (✅ Complete)
+* **Objective:** Define a custom CNN and train a PPO agent to solve the visual CartPole task.
+* **Key Activities:**
+    * Defined a custom CNN feature extractor using PyTorch to interpret env images.
+    * Configured a PPO agent from Stable Baselines3 to use the custom network.
+    * Ran a 250,000 timestep training session, which demonstrated initial learning followed by a performance plateau.
+* **Outcome:** A trained model (`ppo_visual_cartpole_250k.zip`) saved and ready for evaluation. The completed work is in `notebooks/2_Training_the_Agent.ipynb`.
+
 ---
 ## Repository Structure
 
