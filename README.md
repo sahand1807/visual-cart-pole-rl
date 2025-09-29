@@ -21,8 +21,8 @@ A direct comparison was made between the final trained agent and a baseline agen
 
 | Agent Type | Final Reward | Visual Performance |
 | :--- | :--- | :--- |
-| **Random Agent** | 20.0 | ![Random Agent](media/random_agent_debug.gif) |
-| **Trained Agent** | 66.0 | ![Trained Agent](media/agent_run_final_debug.gif) |
+| **Random Agent** | 20.0 | ![Random Agent](media/random_agent.gif) |
+| **Trained Agent** | 66.0 | ![Trained Agent](media/trained_agent.gif) |
 
 The visual and quantitative results are clear. The **random agent** fails almost immediately, while the **trained agent** demonstrates a clear, learned policy that successfully balances the pole for a short period. This confirms that the training process was successful in teaching the agent a control strategy from pixels alone.
 
