@@ -9,6 +9,21 @@ This project showcases a Deep Reinforcement Learning agent trained to solve the 
 * **Stable Baselines3:** For implementing the RL algorithm.
 
 ---
+## Project Status & Progress
+
+### Phase 1: Environment and Preprocessing (✅ Complete)
+* **Objective:** Transform the standard `CartPole-v1` environment into one that uses screen pixels as its state.
+* **Outcome:** A fully functional, wrapped Gymnasium environment ready for visual-based training, with helper code modularized in the `/utils` directory.
+
+### Phase 2: Model Building and Training (✅ Complete)
+* **Objective:** Define a custom CNN and train a PPO agent to solve the visual CartPole task.
+* **Outcome:** A trained model (`ppo_visual_cartpole_250k.zip`) saved and ready for evaluation.
+
+### Phase 3: Evaluation and Visualization (✅ Complete)
+* **Objective:** Qualitatively and quantitatively evaluate the trained agent's performance.
+* **Outcome:** A detailed analysis notebook that includes performance GIFs, state-value debugging, and a plotted learning curve.
+
+---
 ## Results and Analysis
 
 ### Learning Curve
@@ -26,20 +41,6 @@ A direct comparison was made between the final trained agent and a baseline agen
 
 The visual and quantitative results are clear. The **random agent** fails almost immediately, while the **trained agent** demonstrates a clear, learned policy that successfully balances the pole for a short period. This confirms that the training process was successful in teaching the agent a control strategy from pixels alone.
 
----
-## Project Status & Progress
-
-### Phase 1: Environment and Preprocessing (✅ Complete)
-* **Objective:** Transform the standard `CartPole-v1` environment into one that uses screen pixels as its state.
-* **Outcome:** A fully functional, wrapped Gymnasium environment ready for visual-based training, with helper code modularized in the `/utils` directory.
-
-### Phase 2: Model Building and Training (✅ Complete)
-* **Objective:** Define a custom CNN and train a PPO agent to solve the visual CartPole task.
-* **Outcome:** A trained model (`ppo_visual_cartpole_250k.zip`) saved and ready for evaluation.
-
-### Phase 3: Evaluation and Visualization (✅ Complete)
-* **Objective:** Qualitatively and quantitatively evaluate the trained agent's performance.
-* **Outcome:** A detailed analysis notebook that includes performance GIFs, state-value debugging, and a plotted learning curve.
 
 ---
 ## Repository Structure
