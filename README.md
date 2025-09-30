@@ -62,7 +62,7 @@ The final trained agent's performance is compared against a baseline agent takin
 The experiments definitively show that for this visual control problem, the most critical factor for success was providing the agent with **temporal information** representing the dynamic nature of the problem in hand. A simple agent, regardless of architecture or learning rate, was "state-blind" and could not develop a proactive policy. By stacking four consecutive frames, the agent was able to infer the system's dynamics
 
 ---
-## 4. Skills and Technologies Showcase
+## 4. Theoretical Foundations and Technologies
 
 This project demands a comprehensive repertoire in machine learning engineering and reinforcement learning.
 
