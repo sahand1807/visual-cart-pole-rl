@@ -1,8 +1,12 @@
 # Deep Reinforcement Learning via Convoultional Neural Netwok and Proximal Policy Optimization for Visual Control of an Inverted Pendulum
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sahand1807/visual-cart-pole-rl/blob/main/notebooks/1_Environment_and_Preprocessing.ipynb)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sahand1807/visual-cart-pole-rl/blob/main/notebooks/2_Training_the_Agent.ipynb)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sahand1807/visual-cart-pole-rl/blob/main/notebooks/3_Evaluation_and_Visualization.ipynb)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sahand1807/visual-cart-pole-rl/blob/main/notebooks/4_Experimentation_and_Tuning.ipynb)
+### Open Notebooks in Google Colab
+
+| Notebook | Description | Link |
+| :--- | :--- | :--- |
+| **1. Environment Setup** | Defines the custom visual environment and preprocessing pipeline. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sahand1807/visual-cart-pole-rl/blob/main/notebooks/1_Environment_and_Preprocessing.ipynb) |
+| **2. Model Training** | Defines the custom CNN and trains the baseline agent. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sahand1807/visual-cart-pole-rl/blob/main/notebooks/2_Training_the_Agent.ipynb) |
+| **3. Evaluation** | Loads the trained models and generates performance GIFs and graphs. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sahand1807/visual-cart-pole-rl/blob/main/notebooks/3_Evaluation_and_Visualization.ipynb) |
+| **4. Experimentation** | Contains the hyperparameter tuning experiments. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sahand1807/visual-cart-pole-rl/blob/main/notebooks/4_Experimentation_and_Tuning.ipynb) |
 
 ## Abstract
 
