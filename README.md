@@ -45,7 +45,7 @@ The final trained agent's performance is compared against a baseline agent takin
 
 | Agent Type | Final Reward | Visual Performance |
 | :--- | :--- | :--- |
-| **Random Agent** | 20.0 | ![Random Agent](media/random_agent_debug.gif) |
+| **Random Agent** | 20.0 | ![Random Agent](media/random_agent.gif) |
 | **Trained Agent** | 500 | ![Trained Agent](media/final_trained_agent.gif) |
 
 ---
