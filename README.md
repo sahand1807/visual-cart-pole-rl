@@ -18,7 +18,7 @@ The environment's raw `(400, 600, 3)` RGB render is too high-dimensional for eff
 ### 1.2. System Architecture
 The data flows from the environment through a series of wrappers and learning components. The policy network, which maps observations to actions, uses a custom Convolutional Neural Network (CNN) built in **PyTorch** as its feature extractor.
 
-*(Placeholder for your architecture diagram)*
+![Project Architecture](media/architecture.png)
 
 ### 1.3. Learning Algorithm
 The **Proximal Policy Optimization (PPO)** algorithm from **Stable Baselines3** was used for training. PPO is a state-of-the-art, on-policy algorithm known for its stability and reliable performance across a wide range of tasks.
