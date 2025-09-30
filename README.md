@@ -71,7 +71,7 @@ This project demands a comprehensive repertoire in machine learning engineering 
 
 * **Software Engineering:**
     * **Environment:** Python, Jupyter Notebooks, Google Colab (with GPU).
-    * **Libraries:** NumPy, Pandas, Matplotlib, PyTorch, Gymnasium, imageio, stable baseline3.
+    * **Libraries:** NumPy, Pandas, Matplotlib, PyTorch, Gymnasium, imageio, Stable Baselines3.
     * **Best Practices:** Modular code, Experiment Tracking, Version Control (Git/GitHub), Documentation (`README.md`).
 
 ---
